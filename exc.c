@@ -1,8 +1,8 @@
 /*
  * @file: ED1-2022-1-AT01-ConversorD2B-LucasPrado.c
- * @date: D21 mar 2022
+ * @date: 21 mar 2022
  * @author: Lucas Prado
- * @brief: Atividade Pr·tica 01
+ * @brief: Atividade Pr√°tica 01
  */
 
 #include <stdio.h>
