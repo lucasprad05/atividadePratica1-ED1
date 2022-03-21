@@ -46,7 +46,7 @@ void iniciaPilhaDecimal(PilhaDecimal *pilha){
 
 void empilharPilhaDecimal(PilhaDecimal *pilha, char *argv[]){
     FILE *arq1;
-    arq1 = fopen(argv[1], "r");
+    arq1 = fopen(argv[1], "r");  //trocar argv[1] por "entrada.txt", roda
     if(arq1 == NULL){
         printf("Erro ao abrir os arquivos\n");
         return 0;
@@ -72,7 +72,7 @@ void imprimePilhaDecimal(PilhaDecimal *pilha){
 
 void converteBinario(PilhaDecimal *pilha, char *argv[]){
     FILE *arq2;
-    arq2 = fopen(argv[2], "w");
+    arq2 = fopen(argv[2], "w");  //trocar argv[2] por "saida.txt", roda mas não salva
     if(arq2 == NULL){
         printf("Erro ao abrir os arquivos\n");
         return 0;
